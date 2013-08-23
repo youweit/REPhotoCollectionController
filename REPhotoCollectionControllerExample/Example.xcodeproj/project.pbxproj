@@ -48,14 +48,14 @@
 		30736BFD15C39FCF00867503 /* ThumbnailView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThumbnailView.h; sourceTree = "<group>"; };
 		30736BFE15C39FCF00867503 /* ThumbnailView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThumbnailView.m; sourceTree = "<group>"; };
 		30736C0015C4450200867503 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
-		309E8F6C15C38020008FFC1F /* MOTHERFUCKER.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MOTHERFUCKER.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		309E8F6C15C38020008FFC1F /* Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		309E8F7015C38020008FFC1F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		309E8F7215C38020008FFC1F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		309E8F7415C38020008FFC1F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		309E8F7815C38020008FFC1F /* MOTHERFUCKER-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MOTHERFUCKER-Info.plist"; sourceTree = "<group>"; };
+		309E8F7815C38020008FFC1F /* Example-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Example-Info.plist"; sourceTree = "<group>"; };
 		309E8F7A15C38020008FFC1F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		309E8F7C15C38020008FFC1F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		309E8F7E15C38020008FFC1F /* MOTHERFUCKER-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MOTHERFUCKER-Prefix.pch"; sourceTree = "<group>"; };
+		309E8F7E15C38020008FFC1F /* Example-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Example-Prefix.pch"; sourceTree = "<group>"; };
 		309E8F7F15C38020008FFC1F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		309E8F8015C38020008FFC1F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		30D8E0081633176E00FC85A8 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
@@ -121,7 +121,7 @@
 		309E8F6115C38020008FFC1F = {
 			isa = PBXGroup;
 			children = (
-				309E8F7615C38020008FFC1F /* MOTHERFUCKER */,
+				309E8F7615C38020008FFC1F /* Example */,
 				309E8F6F15C38020008FFC1F /* Frameworks */,
 				309E8F6D15C38020008FFC1F /* Products */,
 			);
@@ -130,7 +130,7 @@
 		309E8F6D15C38020008FFC1F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				309E8F6C15C38020008FFC1F /* MOTHERFUCKER.app */,
+				309E8F6C15C38020008FFC1F /* Example.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -148,7 +148,7 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		309E8F7615C38020008FFC1F /* MOTHERFUCKER */ = {
+		309E8F7615C38020008FFC1F /* Example */ = {
 			isa = PBXGroup;
 			children = (
 				89CB448917C79F1600E2EBAA /* SDWebImage */,
@@ -163,7 +163,7 @@
 				30736BFD15C39FCF00867503 /* ThumbnailView.h */,
 				30736BFE15C39FCF00867503 /* ThumbnailView.m */,
 			);
-			name = MOTHERFUCKER;
+			name = Example;
 			path = REPhotoCollectionControllerExample;
 			sourceTree = "<group>";
 		};
@@ -171,10 +171,10 @@
 			isa = PBXGroup;
 			children = (
 				30D8E0081633176E00FC85A8 /* Default-568h@2x.png */,
-				309E8F7815C38020008FFC1F /* MOTHERFUCKER-Info.plist */,
+				309E8F7815C38020008FFC1F /* Example-Info.plist */,
 				309E8F7915C38020008FFC1F /* InfoPlist.strings */,
 				309E8F7C15C38020008FFC1F /* main.m */,
-				309E8F7E15C38020008FFC1F /* MOTHERFUCKER-Prefix.pch */,
+				309E8F7E15C38020008FFC1F /* Example-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -235,9 +235,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		309E8F6B15C38020008FFC1F /* MOTHERFUCKER */ = {
+		309E8F6B15C38020008FFC1F /* Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 309E8F8415C38020008FFC1F /* Build configuration list for PBXNativeTarget "MOTHERFUCKER" */;
+			buildConfigurationList = 309E8F8415C38020008FFC1F /* Build configuration list for PBXNativeTarget "Example" */;
 			buildPhases = (
 				309E8F6815C38020008FFC1F /* Sources */,
 				309E8F6915C38020008FFC1F /* Frameworks */,
@@ -247,9 +247,9 @@
 			);
 			dependencies = (
 			);
-			name = MOTHERFUCKER;
+			name = Example;
 			productName = REPhotoCollectionControllerExample;
-			productReference = 309E8F6C15C38020008FFC1F /* MOTHERFUCKER.app */;
+			productReference = 309E8F6C15C38020008FFC1F /* Example.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -261,7 +261,7 @@
 				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = "Roman Efimov";
 			};
-			buildConfigurationList = 309E8F6615C38020008FFC1F /* Build configuration list for PBXProject "MOTHERFUCKER" */;
+			buildConfigurationList = 309E8F6615C38020008FFC1F /* Build configuration list for PBXProject "Example" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -273,7 +273,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				309E8F6B15C38020008FFC1F /* MOTHERFUCKER */,
+				309E8F6B15C38020008FFC1F /* Example */,
 			);
 		};
 /* End PBXProject section */
@@ -400,10 +400,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "REPhotoCollectionControllerExample/MOTHERFUCKER-Prefix.pch";
-				INFOPLIST_FILE = "REPhotoCollectionControllerExample/MOTHERFUCKER-Info.plist";
+				GCC_PREFIX_HEADER = "REPhotoCollectionControllerExample/Example-Prefix.pch";
+				INFOPLIST_FILE = "REPhotoCollectionControllerExample/Example-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
-				PRODUCT_NAME = MOTHERFUCKER;
+				PRODUCT_NAME = Example;
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
@@ -413,10 +413,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "REPhotoCollectionControllerExample/MOTHERFUCKER-Prefix.pch";
-				INFOPLIST_FILE = "REPhotoCollectionControllerExample/MOTHERFUCKER-Info.plist";
+				GCC_PREFIX_HEADER = "REPhotoCollectionControllerExample/Example-Prefix.pch";
+				INFOPLIST_FILE = "REPhotoCollectionControllerExample/Example-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
-				PRODUCT_NAME = MOTHERFUCKER;
+				PRODUCT_NAME = Example;
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
@@ -425,7 +425,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		309E8F6615C38020008FFC1F /* Build configuration list for PBXProject "MOTHERFUCKER" */ = {
+		309E8F6615C38020008FFC1F /* Build configuration list for PBXProject "Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				309E8F8215C38020008FFC1F /* Debug */,
@@ -434,7 +434,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		309E8F8415C38020008FFC1F /* Build configuration list for PBXNativeTarget "MOTHERFUCKER" */ = {
+		309E8F8415C38020008FFC1F /* Build configuration list for PBXNativeTarget "Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				309E8F8515C38020008FFC1F /* Debug */,
