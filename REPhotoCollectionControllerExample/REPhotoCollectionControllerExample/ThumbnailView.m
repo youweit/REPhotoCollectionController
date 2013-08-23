@@ -12,18 +12,14 @@
 
 - (void)setPhoto:(NSObject <REPhotoObjectProtocol> *)photo
 {
-    if (photo.thumbnailURL) {
-        imageButton.imageURL = photo.thumbnailURL;
-    } else {
-        [imageButton setImage:photo.thumbnail forState:UIControlStateNormal];
-    }
+        [imageButton setImageWithURL:photo.thumbnailURL];
 }
 
 - (id)initWithFrame:(CGRect)frame
 {
     self = [super initWithFrame:frame];
     if (self) {
-        imageButton = [[EGOImageButton alloc] initWithPlaceholderImage:[UIImage imageNamed:@""]];
+        imageButton = [[UIImageView alloc] init];
         imageButton.frame = CGRectMake(1, 1, self.frame.size.width - 2, self.frame.size.height - 2);
         [self addSubview:imageButton];
     }

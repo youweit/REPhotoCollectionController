@@ -7,9 +7,10 @@
 //
 
 #import "REPhotoThumbnailView.h"
+#import "SDWebImage/UIImageView+WebCache.h"
 
 @interface ThumbnailView : REPhotoThumbnailView {
-    EGOImageButton *imageButton;
+    UIImageView *imageButton;
 }
 
 - (void)setPhoto:(NSObject <REPhotoObjectProtocol> *)photo;
